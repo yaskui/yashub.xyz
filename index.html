@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>yashub</title>
+    <title>Ihr Programm</title>
     <style>
         body {
             background-color: #2d002d;
@@ -12,6 +12,7 @@
         }
         h1 {
             color: #ff00ff;
+            text-shadow: 2px 2px #4d004d;
         }
         .button {
             background-color: #ff00ff;
@@ -24,25 +25,33 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        .button:hover {
+            box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
         }
         img {
-            width: 670px;
-            height: 260px;
+            width: 300px;
+            height: 200px;
             object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
         .info {
             background-color: #4d004d;
             color: #ff00ff;
             padding: 20px;
             margin-top: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         }
     </style>
 </head>
 <body>
     <h1>Willkommen auf meiner Website!</h1>
     <p>Hier können Sie mein Programm herunterladen.</p>
-    <img src="data/ToolPrev.png" alt="Ihr Bild">
-    <a href="data/MultiTool.rar" download class="button">Download</a>
+    <img src="ToolPrev.png" alt="Ihr Bild">
+    <a href="MultiTool.rar" download class="button">Download</a>
     <div class="info">
         <h2>Informationen über das Programm</h2>
         <p>Hier können Sie Informationen über Ihr Programm hinzufügen.</p>
